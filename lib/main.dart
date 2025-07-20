@@ -1,3 +1,4 @@
+import 'package:fitnessquest/today_menu.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -46,7 +47,10 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 20), // 20ピクセルの縦マージンを追加
             ElevatedButton(
               onPressed: () {
-                //add:押したときの動作記載
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TodayMenu()),
+                );
               },
               child: Text('今日のトレーニングを表示'),
             ),
