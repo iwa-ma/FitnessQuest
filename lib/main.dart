@@ -36,6 +36,19 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text('FitnessQuest'),
       ),
+      body: Container(
+        color: Colors.white,
+        child:Center(
+          child:Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('本日のメニューを表示する'),
+            SizedBox(height: 20), // 20ピクセルの縦マージンを追加
+            Text('Click'),
+          ],
+          ),
+        ),
+      ),
     );
   }
 }
