@@ -42,9 +42,14 @@ class _MyHomePageState extends State<MyHomePage> {
           child:Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('本日のメニューを表示する'),
+            Text('本日のトレーニングを表示して、運動しよう！'),
             SizedBox(height: 20), // 20ピクセルの縦マージンを追加
-            Text('Click'),
+            ElevatedButton(
+              onPressed: () {
+                //add:押したときの動作記載
+              },
+              child: Text('今日のトレーニングを表示'),
+            ),
           ],
           ),
         ),
