@@ -47,6 +47,30 @@
           "weight": "25kg"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "脚・肩",
+      "exercises": [
+        {
+          "name": "スクワット",
+          "sets": 3,
+          "reps": 12,
+          "weight": "70kg"
+        },
+        {
+          "name": "レッグプレス",
+          "sets": 3,
+          "reps": 15,
+          "weight": "100kg"
+        },
+        {
+          "name": "ショルダープレス",
+          "sets": 3,
+          "reps": 10,
+          "weight": "30kg"
+        }
+      ]
     }
   ]
 } 
