@@ -16,7 +16,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'FitnessQuest'),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const MyHomePage(title: 'FitnessQuest'),
+        '/today_menu': (context) => const TodayMenu(),
+      },
     );
   }
 }
@@ -47,10 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 20), // 20ピクセルの縦マージンを追加
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => TodayMenu()),
-                );
+                Navigator.pushNamed(context, '/today_menu');
               },
               child: Text('今日のトレーニングを表示'),
             ),
