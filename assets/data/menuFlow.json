@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "胸・三頭筋",
+    "exercises": [
+      { "name": "ベンチプレス", "sets": 3, "reps": 10, "weight": "60kg" },
+      { "name": "インクラインプレス", "sets": 3, "reps": 12, "weight": "40kg" },
+      { "name": "トライセップスプッシュダウン", "sets": 3, "reps": 15, "weight": "20kg" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "背中・二頭筋",
+    "exercises": [
+      { "name": "デッドリフト", "sets": 3, "reps": 8, "weight": "80kg" },
+      { "name": "ラットプルダウン", "sets": 3, "reps": 12, "weight": "50kg" },
+      { "name": "バーベルカール", "sets": 3, "reps": 12, "weight": "25kg" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "脚・肩",
+    "exercises": [
+      { "name": "スクワット", "sets": 3, "reps": 12, "weight": "70kg" },
+      { "name": "レッグプレス", "sets": 3, "reps": 15, "weight": "100kg" },
+      { "name": "ショルダープレス", "sets": 3, "reps": 10, "weight": "30kg" }
+    ]
+  }
+]
